@@ -1,0 +1,43 @@
+/root/miniconda3/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.3.0) or chardet (7.1.0)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.02it/s][A
+Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.04it/s][A
+Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.21it/s][A
+Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.31it/s][A
+Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.79it/s][ALoading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.45it/s]
+[1/32] A_0001
+[2/32] A_0009
+[3/32] A_0017
+[4/32] A_0025
+[5/32] A_0033
+[6/32] A_0041
+[7/32] A_0049
+[8/32] A_0057
+[9/32] A_0065
+[10/32] A_0073
+[11/32] A_0081
+[12/32] A_0089
+[13/32] A_0097
+[14/32] A_0105
+[15/32] A_0113
+[16/32] A_0121
+[17/32] B_0001
+[18/32] B_0009
+[19/32] B_0017
+[20/32] B_0025
+[21/32] B_0033
+[22/32] B_0041
+[23/32] B_0049
+[24/32] B_0057
+[25/32] B_0065
+[26/32] B_0073
+[27/32] B_0081
+[28/32] B_0089
+[29/32] B_0097
+[30/32] B_0105
+[31/32] B_0113
+[32/32] B_0121

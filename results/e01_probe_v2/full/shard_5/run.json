@@ -1,0 +1,28 @@
+{
+  "worker": true,
+  "model_name": "/mnt/tidalfs-hssh01/dataset/xiang/models/Qwen2.5-VL-7B-Instruct",
+  "probe": "both",
+  "limit": 128,
+  "seed": 42,
+  "gpus": "0,1,2,3,4,5,6,7",
+  "num_shards": 8,
+  "output_dir": "results/e01_probe_v2/full",
+  "bootstrap_draws": 2000,
+  "ability_threshold": 0.8,
+  "loo_margin": 0.05,
+  "shard_index": 5,
+  "shard_dir": "results/e01_probe_v2/full/shard_5",
+  "git_commit": "b9ec4d8478df2a2f54e834facfea1f36b726c6e1",
+  "versions": {
+    "torch": "2.10.0",
+    "transformers": "4.56.2",
+    "numpy": "2.2.6",
+    "Pillow": "11.3.0"
+  },
+  "status": "COMPLETE",
+  "candidate_normalization": "log-softmax over scores for 0 and 1",
+  "attention_implementation": "eager",
+  "dtype": "torch.bfloat16",
+  "raw_rows": 1024,
+  "control_rows": 192
+}

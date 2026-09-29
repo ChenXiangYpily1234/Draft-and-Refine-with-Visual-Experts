@@ -1,0 +1,642 @@
+[
+  {
+    "sample_id": "A_0005",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 1,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "A_0013",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 0,
+      "FINAL": 1
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "A_0021",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 0,
+      "FINAL": 1
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "A_0029",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 1,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "A_0037",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 0,
+      "FINAL": 1
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "A_0045",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 1,
+      "FINAL": 1
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "A_0053",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 0,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "A_0061",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 1,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "A_0069",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 1,
+      "FINAL": 1
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "A_0077",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 1,
+      "FINAL": 1
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "A_0085",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 0,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "A_0093",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 0,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "A_0101",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 0,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "A_0109",
+    "probe": "A",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 0,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "A_0117",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 0,
+      "STEP2": 0,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "A_0125",
+    "probe": "A",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP1": 1,
+      "STEP2": 1,
+      "FINAL": 0
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "B_0005",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "B_0013",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "B_0021",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "B_0029",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "B_0037",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 0
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "B_0045",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "B_0053",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 0
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "B_0061",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 0
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "B_0069",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 0
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "B_0077",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 0
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "B_0085",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "B_0093",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  },
+  {
+    "sample_id": "B_0101",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "position",
+      "B": "color",
+      "C": "size",
+      "D": "orientation"
+    }
+  },
+  {
+    "sample_id": "B_0109",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "color",
+      "B": "size",
+      "C": "orientation",
+      "D": "position"
+    }
+  },
+  {
+    "sample_id": "B_0117",
+    "probe": "B",
+    "bits": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "targets": {
+      "STEP": 1
+    },
+    "cue_styles": {
+      "A": "size",
+      "B": "orientation",
+      "C": "position",
+      "D": "color"
+    }
+  },
+  {
+    "sample_id": "B_0125",
+    "probe": "B",
+    "bits": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1
+    },
+    "targets": {
+      "STEP": 0
+    },
+    "cue_styles": {
+      "A": "orientation",
+      "B": "position",
+      "C": "color",
+      "D": "size"
+    }
+  }
+]
