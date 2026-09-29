@@ -106,24 +106,30 @@ def run_binding(
             "min_slot_accuracy": min(vals),
         }
 
-    candidates = [
-        (mode, s) for mode, s in summaries.items()
+    passing = {
+        mode: s for mode, s in summaries.items()
         if s["min_slot_accuracy"] >= 0.90 and s["slot_gap"] <= 0.10
-    ]
-    if candidates:
-        candidates.sort(key=lambda x: (x[1]["slot_gap"], -x[1]["mean_accuracy"]))
-        selected_mode = candidates[0][0]
-        gate = "PASS"
-        stop = None
+    }
+    # Preserve the multi-image scientific setting whenever possible.
+    # Composite is a fallback control, not the preferred evidence format.
+    if "in_image_anchor" in passing:
+        selected_mode = "in_image_anchor"
+        scope = "multi_image"
+        gate, stop = "PASS", None
+    elif "composite" in passing:
+        selected_mode = "composite"
+        scope = "composite_control_only"
+        gate, stop = "PASS", None
     else:
         selected_mode = None
-        gate = "FAIL"
-        stop = "BINDING_NOT_NEUTRALIZED"
+        scope = None
+        gate, stop = "FAIL", "BINDING_NOT_NEUTRALIZED"
 
     summary = {
         "binding_gate": gate,
         "stop_reason": stop,
         "selected_mode": selected_mode,
+        "scope": scope,
         "modes": summaries,
         "n_samples": limit,
         "n_permutations": len(perms),
