@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Mapping, Sequence, Tuple
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 LABELS = ("A", "B", "C", "D")
 STYLES = ("position", "color", "size", "orientation")
@@ -70,9 +70,10 @@ def render_cue(
         d.polygon(pts, fill=(150, 90, 190), outline="black")
 
     if anchor and label:
-        # Constant label anchor: the label is metadata, not task evidence.
-        d.rectangle((2, 2, 28, 24), fill="white", outline="black", width=2)
-        d.text((10, 6), label, fill="black")
+        # Constant, high-visibility label anchor: metadata, not task evidence.
+        font = ImageFont.load_default(size=max(18, size // 7))
+        d.rectangle((2, 2, 38, 34), fill="white", outline="black", width=2)
+        d.text((10, 5), label, fill="black", font=font)
     return im
 
 
@@ -82,8 +83,9 @@ def render_blank(label: str, *, anchor: bool, size: int = 128) -> Image.Image:
     # Keep a faint neutral frame so blank slots have stable visual extent.
     d.rectangle((18, 28, size-18, size-18), outline=(220, 220, 220), width=2)
     if anchor:
-        d.rectangle((2, 2, 28, 24), fill="white", outline="black", width=2)
-        d.text((10, 6), label, fill="black")
+        font = ImageFont.load_default(size=max(18, size // 7))
+        d.rectangle((2, 2, 38, 34), fill="white", outline="black", width=2)
+        d.text((10, 5), label, fill="black", font=font)
     return im
 
 
